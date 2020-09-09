@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fd577880-635c-44c9-a6e6-34363b0eeb99}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{447757d8-9fab-417c-b258-b58ed92f8c68}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{042b25c5-0d78-4df1-bc1b-19fafa8736da}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{918035f9-0a92-4d39-808d-4a94e135dd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{7088fa13-3d40-4d63-9934-2b82c579f032}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sky Warrior.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sky Warrior.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky Warrior.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stopwatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Sky Warrior.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Microsoft Visual Studio\VC98\Lib\SDLmain.lib">
+      <Filter>library</Filter>
+    </Library>
+    <Library Include="C:\Microsoft Visual Studio\VC98\Lib\SDL.lib">
+      <Filter>library</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="data\boss1">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\boss2">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\boss3">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\boss4">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\boss5">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\fire">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\lev1">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\lev2">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\lev3">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\lev4">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\lev5">
+      <Filter>Data</Filter>
+    </CustomBuild>
+    <CustomBuild Include="data\plane">
+      <Filter>Data</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

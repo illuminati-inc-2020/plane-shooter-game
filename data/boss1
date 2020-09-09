@@ -1,0 +1,20 @@
+(size)			1.25
+(size)			0.003
+
+(number of guns)	3
+(gun :		x		y		size	angle	fire_type	health)
+			.2		.1		.1		5		1			300
+			0		0		.1		0		3			400
+			-.2		.1		.1		-5		1			300
+
+(number of states)	6
+(state :	x		y		angle	duration	gun flag)
+			0		.6		180		3			0 0 0
+			0		.6		180		5			0 1 0
+			.8		.4		180		2			0 0 0
+			.8		.4		180		5			1 0 1
+			-.8		.4		180		2			0 0 0
+			-.8		.4		180		5			1 0 1
+
+(texture			mask)
+boss1.bmp		boss1_mask.bmp

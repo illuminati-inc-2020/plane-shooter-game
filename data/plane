@@ -1,0 +1,14 @@
+(number of data)
+10
+
+(speed	firing delay	power	size	maxhealth	texture		mask				score)
+0.03		10			.01		.3		100			plane0.bmp	plane0_mask.bmp		0
+0.001		200			.005	.3		30			plane1.bmp	plane1_mask.bmp		10
+0.0001		10			.01		.3		70			plane2.bmp	plane2_mask.bmp		30
+0			10000		.6		.15		50			plane3.bmp	plane3_mask.bmp		20
+0			20			.01		.4		200			plane4.bmp	plane4_mask.bmp		20
+0.0001		100			.001	.2		50			plane5.bmp	plane5_mask.bmp		20
+0.002		100			.01		.3		200			plane6.bmp	plane6_mask.bmp		30
+0.002		30			.01		.4		200			plane7.bmp	plane7_mask.bmp		50
+0.002		100			.002	.3		80			plane8.bmp	plane8_mask.bmp		10
+0.0005		20			.01		.6		400			plane9.bmp	plane9_mask.bmp		100

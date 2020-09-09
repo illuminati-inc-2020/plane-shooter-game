@@ -1,0 +1,100 @@
+<*project
+      version = 4 civer = "Light v4.6.5" winver = "2.6/5.1.2600" > 
+   <output> D:\My Documents\My Programs\Plane Game\WIN\</>
+   <exename> Install Sky Warrior.exe</>
+   <digitsign> </>
+   <appname> Sky Warrior</>
+   <password> </>
+   <addlang> </>
+   <icon> Default - 1</>
+   <selfextr> 1</>
+   <voltype> nolimit</>
+   <volsize> 10</>
+   <volpattern> disk%i.pak</>
+   <load> </>
+   <loadtime> 1000</>
+   <checktype> admin</>
+   <chkname> </>
+   <chkmsg> </>
+   <dlgfont> Verdana,8</>
+   <lang> English</>
+   <theme> Color</>
+   <iface> leftlogo</>
+   <leftlogo> </>
+   <logo> </>
+   <vb> </>
+   <dao> </>
+   <background> 0</>
+   <dlgwelcome> 1</>
+   <dlgreadme> D:\My Documents\My Programs\Plane Game\WIN\Readme.txt</>
+   <dlglic> </>
+   <dlgcustpath> C:\Program Files\Sky Warrior</>
+   <dlgenfpath> 0</>
+   <dlgsavepath> 1</>
+   <dlgautoprog> 1</>
+   <dlgfinish> 1</>
+   <comptype> ppmdmax</>
+   <solid> 1</>
+   <srcfolder> </>
+   <ifexist> </>
+   <runafter> Sky Warrior.exe</>
+   <runconfirm> 1</>
+   <uninclude> 1</>
+   <unicon> Default - 1</>
+   <unshortcut> 0</>
+   <unrun> Uninstall.exe</>
+   <silent> 0</>
+   <unfeed> </>
+   <unautoclose> 1</>
+   <unfinish> 1</>
+   <bl> Sky Warrior</>
+   <blurl> </>
+   <bghead> </>
+   <bgfoot> </> 
+   <bgback> </>
+   <files listview >
+      <_><src>D:\My Documents\My Programs\Plane Game\WIN\audio</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>D:\My Documents\My Programs\Plane Game\WIN\SDL.dll</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>C:\WINDOWS\system32\glut.dll</><dest>sys</><custom></><ifexist>skip</><recurs>0</></>
+<_><src>D:\My Documents\My Programs\Plane Game\WIN\debug\Sky Warrior.exe</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>D:\My Documents\My Programs\Plane Game\WIN\Readme.txt</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>D:\My Documents\My Programs\Plane Game\WIN\icon.ico</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>D:\My Documents\My Programs\Plane Game\WIN\Image</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>D:\My Documents\My Programs\Plane Game\WIN\font</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>D:\My Documents\My Programs\Plane Game\WIN\data</><dest>inst</><custom></><ifexist>overnewer</><recurs>0</></>
+<_><src>C:\WINDOWS\system32\glut32.dll</><dest>sys</><custom></><ifexist>skip</><recurs>0</></>
+<_><src>C:\WINDOWS\system32\glu32.dll</><dest>sys</><custom></><ifexist>skip</><recurs>0</></>
+
+   </files>
+   <runx listview >
+      
+   </runx>
+   <registry listview >
+      
+   </registry>
+   <shcut listview >
+      <_><shpath>desk</><shname>Sky Warrior</><tarpath>inst</><tarname>Sky Warrior.exe</><cmdline></><workpath>inst</><workcust></><icon>icon.ico</></>
+<_><shpath>prog</><shname>Sky Warrior</><tarpath>inst</><tarname>Sky Warrior.exe</><cmdline></><workpath>inst</><workcust></><icon>icon.ico</></>
+<_><shpath>prog</><shname>Uninstall Sky Warrior</><tarpath>inst</><tarname>Uninstall.exe</><cmdline></><workpath>inst</><workcust></><icon></></>
+
+   </shcut>
+   <ini listview >
+      
+   </ini>
+   <copy listview >
+      
+   </copy>
+   <activex listview >
+      
+   </activex>
+   <font listview >
+      
+   </font>
+   <ext listview >
+      
+   </ext>
+   <mreg listview >
+      
+   </mreg>
+   <macros> Pathadd=</>
+</project>
